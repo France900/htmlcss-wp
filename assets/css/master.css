@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+[class^="col-"] {
+  height: 100px;
+  background-color: lightgray;
+  float: left;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  width: 80%;
+  margin: 15px auto;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+/* --- TABLE --- */
+section {
+  margin-bottom: 15px;
+}
+
+.pad- {
+  padding-bottom: 10px;
+}
+
+.pad-sides {
+  padding: 0 10px;
+  padding-bottom: 10px;
+}
+
+
+/*
+[class$="-100"] {
+  width: 100%;
+}
+
+[class$="-50"] {
+  width: 50%;
+}
+
+[class$="-25"] {
+  width: 25%;
+} */
